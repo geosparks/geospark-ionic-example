@@ -1,0 +1,7 @@
+{
+  "name": "geospark-ionic-example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
