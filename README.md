@@ -1,7 +1,6 @@
 # geospark-ionic-example
 
 1. Clone the example application.
-2. Copy the package from ```node_modules/@ionic-native/geospark``` and keep it in another folder.
-3. ```npm i```
-4. Paste the GeoSpark package from step 2 to ```node_modules/@ionic-native/```
-5. Run ```ionic capacitor run android```
+2. ```npm i```
+3. Uncompress ```geospark.zip``` and paste the folder ```geospark``` to ```node_modules/@ionic-native/```
+4. Run ```ionic capacitor run android```
