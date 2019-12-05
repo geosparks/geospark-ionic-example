@@ -192,6 +192,12 @@ const Home: React.FC = () => {
     );
   };
 
+  const register = async () => {
+    geospark.onEvents().then (success => {
+      console.log(success);
+    });
+  };
+
   return (
     <IonPage>
       <IonHeader>
@@ -389,6 +395,14 @@ const Home: React.FC = () => {
           }}
         >
           Logout
+        </IonButton>
+
+        <IonButton
+          onClick={e => {
+            register();
+          }}
+        >
+          Register
         </IonButton>
 
 
