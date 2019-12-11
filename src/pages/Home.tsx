@@ -191,11 +191,9 @@ const Home: React.FC = () => {
       }
     );
   };
-
+  
   const register = async () => {
-    geospark.onEvents().then (success => {
-      console.log(success);
-    });
+    const watch = geospark.onEvents().subscribe((result) => {console.log(result);});
   };
 
   return (
